@@ -1,0 +1,354 @@
+body{
+    background-color: #f6f7f8;
+}
+
+header{
+    background-color: white;
+}
+
+.band{
+    color: linear-gradient(180deg);
+    display: block;
+    margin-top: -10px;
+}
+
+.navbar{
+    display: flex;
+    padding-top: 15px auto;
+}
+
+
+.navbar_left{
+    align-items: center;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    position: relative;
+}
+
+.icone_inicio{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    vertical-align: middle;
+    color: #006fc3;
+}
+
+.point_left{
+    padding: 10px;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    display: flex;
+    fill: currentColor;
+    justify-content: center;
+    stroke: none;
+    vertical-align: middle;
+    color: #cdd5dc;
+}
+
+.point_right{
+    padding: 10px;
+    margin: 10px;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    display: flex;
+    fill: currentColor;
+    justify-content: center;
+    stroke: none;
+    vertical-align: middle;
+    color: #cdd5dc;
+    border: none
+}
+
+.logo_afa{
+    width: 124.34px;
+    height: 39.98px;
+    vertical-align: middle;
+}
+
+.nome_uni{
+    display: block;
+    flex: 0 1 auto;
+    font-size: 1.5rem;
+    line-height: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+.nome_uni:hover{
+    color: #006fc3;
+    text-decoration: underline;
+}
+
+.conteiner{
+    align-items: center;
+    display: flex;
+    height: 90px;
+    margin: 125px;
+}
+
+.navbar_right{
+    align-items: center;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 9px;
+}
+
+.grid{
+    display: flex;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+    align-items: flex-end;
+}
+
+.grid2{
+    width: 35px;
+    height: 35px;
+}
+
+button{
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: inherit;
+    gap: 6px;
+    height: 100%;
+    margin: 0px;
+    min-height: 40px;
+    outline: none;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.notification{
+    display: inline-flex;
+    float: left;
+    width: 15%;
+    padding: 5px;
+    margin: 0px 10px 10px 0;
+}
+
+.message{
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+}
+
+.chat{
+    margin-right: 30px;
+}
+
+.profile{
+    display: inline-flex;
+    vertical-align: top;
+    float: left;
+}
+
+.panela{
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+.username{
+    font-family:'Roboto', sans-serif;
+    font-size: 20px;   
+    margin: auto 0 auto 15px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.line{
+    display: flex;
+    margin-top: -255px;
+    width: 100%;
+}
+
+.navigation_main{
+    border-bottom-style: none;
+}
+
+.top_cap{
+    box-shadow: 0 3px 3px rgba(0,0,0,.05);
+    display: none;
+    height: 3px;
+    margin: -3px;
+    position: absolute;
+    width: 100%;
+}
+
+.navigation_centerer{
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.navigation_gutters{
+    position: relative;
+}
+
+.navigation_list{
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -4px;
+    max-height: 7.55rem;
+    overflow-y: hidden;
+    padding: .75rem 4px 4px;
+    transition: max-height .2s ease-out;
+}
+
+.navigation_item{
+    display: inline-block;
+}
+
+.navigation_item_link{
+    background-color: transparent;
+    border: none;
+    border-radius: .7rem;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 6.05rem;
+    line-height: 1rem;
+    outline: none;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: .75rem;
+    text-align: center;
+    width: 7.3rem;
+}
+
+.item_icon{
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: 0 0;
+    height: 4rem;
+    width: 4rem;
+}
+
+.item_text{
+    color: #202122;
+    display: inline-block;
+    font-size: 13.7px;
+    font-weight: 400;
+    line-height: 1.2rem;
+    margin-top: .5rem;
+    max-width: 6.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    font-family: Lato,Lucida Sans Unicode,Lucida Grande,sans-serif;
+}
+
+.item_placeholder{
+    height: 0;
+    width: 0rem;
+}
+
+.banner{
+    display: block;
+    width: 1170px;
+    margin: auto;
+}
+
+.guia_estudos{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1170px;
+    height: 120px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 30px 375px;
+    box-shadow: 1px 1px 10px rgb(175, 175, 175);
+    }
+
+    #paragrafo_guia_estudos, #paragrafo_indice, #paragrafo_comunicados{
+        font-family: Lato,Lucida Sans Unicode,Lucida Grande,sans-serif;
+        font-weight: bolder;
+        padding: 25px;
+    }
+
+    .indice{
+        position: relative;
+        background-color: #FFFFFF;
+        width: 600px;
+        margin: 200px 375px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px rgb(175, 175, 175);
+    }
+
+    .container_indice{
+        display: grid;
+        grid-template-columns: auto auto ;
+    }
+
+    .quadrados{
+        border: 1px solid rgb(189, 189, 189);
+        border-radius: 10px;
+        background: #FFFFFF;
+        width: 237px;
+        height: 267px;
+        margin: 10px 27px;
+    }
+
+    .code_img{
+        width: 237px;
+        height: 100px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    
+    .link_indice{
+        color: #006fbf;
+        text-decoration: none;
+        font-size: 19px;
+        font-weight: 400;
+        margin: 20px;
+        font-family: Lato,Lucida Sans Unicode,Lucida Grande,sans-serif;
+    }
+
+    .comunicados{
+        position: relative;
+        left: 1100px;
+        bottom: 1710px;
+        background-color: #ffffff;
+        width: 600px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px rgb(175, 175, 175);
+    }
+        
+    .meme{
+        width: 500px;
+        padding-top: 5px;
+        padding-left: 50px;
+        border-radius: 10px;
+    }
+
+    #chad{
+        width: 300px;
+        padding-left: 50px;
+    }

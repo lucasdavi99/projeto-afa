@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+
+.content-page{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://media.istockphoto.com/vectors/abstract-white-polygon-surface-pattern-background-texture-background-vector-id931660792?k=6&m=931660792&s=170667a&w=0&h=YqGfAeEsa7h8ey9B2hvISrvnJwReMvwc7L_-9PsNq0o=);
+    margin-top: 50px;
+    height: 560px;
+}
+
+.img-centro{
+    width: 730px;
+    /* margin-top: 50px; */
+    /* margin-left: 150px; */
+}
+.box-info{
+    padding: 30px;
+    width: 405px;
+    height: 405px;
+    position: absolute;
+    margin-left: 650px;
+    background: linear-gradient(45deg, rgb(3, 100, 138), rgb(3, 138, 82));
+    /* background-color: linear rgb(3, 23, 138); */
+    border-radius: 30px;
+    color: bisque;
+    font-family: 'Roboto', sans-serif;
+}
+.box-info h1{
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+.box-info p{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+
+/* Você deve especificar o caminho da fonte fornecido no google fonts, logo após a fonte está instalada e pronto para usar, temos que utilizar o nome específico que o site fornece para funcionar corretamente. Veja um exemplo:
+
+Usando o @import:
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+Ultilizando a fonte na tag desejada:
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+} */
