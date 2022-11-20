@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main-page.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Página Inicial - Tigane</title>
+</head>
+
+<body>
+    <header>
+        <div class="band">
+            <hr size="6" color="#0095da">
+        </div>
+
+        <nav class="navbar">
+            <div class="navbar_left">
+                <a class="icone_inicio" href="#"><img src="img/icone-iniciar.svg" alt="Icone Inicio"></a>
+                <svg class="point_left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet" focusable="false">
+                    <circle cx="12" cy="2" r="1.5"></circle>
+                    <circle cx="12" cy="7" r="1.5"></circle>
+                    <circle cx="12" cy="12" r="1.5"></circle>
+                    <circle cx="12" cy="17" r="1.5"></circle>
+                    <circle cx="12" cy="22" r="1.5"></circle>
+                </svg>
+                <img class="logo_afa"
+                    src="img/LOGO.png"
+                    alt="Logo AFA">
+                <svg class="point_left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet" focusable="false">
+                    <circle cx="12" cy="2" r="1.5"></circle>
+                    <circle cx="12" cy="7" r="1.5"></circle>
+                    <circle cx="12" cy="12" r="1.5"></circle>
+                    <circle cx="12" cy="17" r="1.5"></circle>
+                    <circle cx="12" cy="22" r="1.5"></circle>
+                </svg>
+                <a href="dashboard.html" class="nome_uni">τηγάνι &#937;</a>
+
+            </div>
+
+            <div class="conteiner"><slot name="left"></slot><div class="d2l-navigation-gutter"></div><slot name="right"></slot></div>
+
+            <div class="navbar_right">
+                <button><img class="grid2" src="img/grid.png" alt=""></button>
+                <svg class="point_right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet" focusable="false">
+                    <circle cx="12" cy="2" r="1.5"></circle>
+                    <circle cx="12" cy="7" r="1.5"></circle>
+                    <circle cx="12" cy="12" r="1.5"></circle>
+                    <circle cx="12" cy="17" r="1.5"></circle>
+                    <circle cx="12" cy="22" r="1.5"></circle>
+                </svg>
+                <div class="notifications">
+                    <button><img class="message" src="img/o-email.png" alt=""></button>
+                    <button><img class="chat" src="img/web-chat.png" alt=""></button>
+                    <button><img class="bell" src="img/alarme.png" alt=""></button>
+                </div>
+
+                <svg class="point_right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet" focusable="false">
+                    <circle cx="12" cy="2" r="1.5"></circle>
+                    <circle cx="12" cy="7" r="1.5"></circle>
+                    <circle cx="12" cy="12" r="1.5"></circle>
+                    <circle cx="12" cy="17" r="1.5"></circle>
+                    <circle cx="12" cy="22" r="1.5"></circle>
+                </svg>
+                
+                <span class="profile">
+                    <a href=""><img class="panela" src="img/panela.png" alt="Panela"></a>
+                    <a class="username" href="">Frigideira da Silva </a>
+                </span>
+            </div>
+        </nav>
+        <hr class="line" size="1" color="#cdd5dc">
+        
+    </header>
+
+    <div class="content-page" >
+        <div class="content">
+            <img src="img/graduacao_ficr.png" size="800px" class="img-centro" >
+        </div>
+        <div class="box-info" >
+            <h1> <b> Quer saber de onde surgiu a ideia dedesenvolver um Portal do Aluno? </b> </h1>
+            <p> A princípio a ideia veio como uma grande piada interna, já que não conseguíamos acessar nosso Portal do Aluno (AVA).
+                Então, desenvolvemos o <b>AFA</b>, que se baseia principalmente no Portal do Aluno utilizado na FICR, porém com exclusividades 
+                e design diferenciado.
+            </p>
+            <a href="dashboard.html">muda</a>
+        </div>
+    </div>
+</body>
+
+</html>
