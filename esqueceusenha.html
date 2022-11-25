@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFA</title>
+    <link rel="stylesheet" href="css/esqueceusenha.css">
+</head>
+<body>
+    <body>
+        <main>
+            <h1>Esqueceu Senha</h1>
+            <div>Insira seu usuário de email e enviaremos um link para você voltar a acessar a conta.</div>
+            <br>
+            <br>
+            <form action="login.html" method="get">
+                <label for="name">Email
+                    <input type="email" id="name" name="name" required>             
+                    <input type="submit" value="Enviar" id="button" onclick="enviar();">
+                    <script>
+                        function enviar(){
+                           alert('Link enviado com sucesso!');
+                        }
+                    </script>
+                    
+            </form>
+        </main>
+        <section class="images">
+            <img src="img/mobile.svg" alt="Mobile">
+            <div class="circle"></div>
+        </section>
+    </body>
+    </html>
+</body>
+</html>

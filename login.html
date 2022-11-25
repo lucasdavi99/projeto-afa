@@ -1,4 +1,3 @@
-<!Feito por João Marcos---->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -6,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AFA</title>
-    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
     <body>
         <main>
-            <h1>Cadastro</h1>
+            <h1>Login</h1>
             <div class="social-media">
                 <a href="#">
                     <img src="img/FICR.png" alt="FICR">
@@ -28,35 +27,21 @@
                 <span>OR</span>
             </div>
     
-            <form action="login.html" method="post">
+            <form action="dashboard.html" method="post">
                 <label for="name">Nome
                     <input type="text" id="name" name="name" required>
-                </label>
-    
-                <label for="email">Email
-                    <input type="email" id="email" name="email" autofocus required>
-                </label>
-                
-                <label for="Matricula">Matrícula
-                 <input type="text" id="Matricula" name="Matricula" autofocus required>
-                </label>
-    
-                <label for="password">Criar Senha
+                <label for="password">Senha
                     <input type="password" id="password" name="password" required>
+                    <a class="#" href="esqueceusenha.html">Esqueceu Senha</a>
                 </label>
-    
-                <input type="submit" value="Cadastrar" id="button" onclick="Cadastrar();">
-                <script>
-                    function Cadastrar(){
-                       alert('Cadastro feito com sucesso!');
-                    }
-                </script>
+                    <input type="submit" value="Entrar" id="button">  
             </form>
         </main>
         <section class="images">
             <img src="img/mobile.svg" alt="Mobile">
             <div class="circle"></div>
-        </section>
+            <footer><a href="sobre-us.html">Sobre</a></footer>
+        </section> 
     </body>
     </html>
 </body>
