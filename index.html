@@ -5,79 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/pagina-inicial.css">
-    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/materia.css">
     <link rel="stylesheet" href="css/reset.css">
     <title>Página Inicial - Tigane</title>
 </head>
 
 <body>
     <header>
-        <div class="band">
-            <hr size="6" color="#0095da">
-        </div>
-
         <nav class="navbar">
-            <div class="navbar_left">
-                <a class="icone_inicio" href="#"><img src="img/icone-iniciar.svg" alt="Icone Inicio"></a>
-                <svg class="point_left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet" focusable="false">
-                    <circle cx="12" cy="2" r="1.5"></circle>
-                    <circle cx="12" cy="7" r="1.5"></circle>
-                    <circle cx="12" cy="12" r="1.5"></circle>
-                    <circle cx="12" cy="17" r="1.5"></circle>
-                    <circle cx="12" cy="22" r="1.5"></circle>
-                </svg>
-                <img class="logo_afa"
-                    src="img/LOGO.png"
-                    alt="Logo AFA">
-                <svg class="point_left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet" focusable="false">
-                    <circle cx="12" cy="2" r="1.5"></circle>
-                    <circle cx="12" cy="7" r="1.5"></circle>
-                    <circle cx="12" cy="12" r="1.5"></circle>
-                    <circle cx="12" cy="17" r="1.5"></circle>
-                    <circle cx="12" cy="22" r="1.5"></circle>
-                </svg>
-                <a href="dashboard.html" class="nome_uni">τηγάνι &#937;</a>
-
-            </div>
-
-            <div class="conteiner"><slot name="left"></slot><div class="d2l-navigation-gutter"></div><slot name="right"></slot></div>
-
-            <div class="navbar_right">
-                <button><img class="grid2" src="img/grid.png" alt=""></button>
-                <svg class="point_right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet" focusable="false">
-                    <circle cx="12" cy="2" r="1.5"></circle>
-                    <circle cx="12" cy="7" r="1.5"></circle>
-                    <circle cx="12" cy="12" r="1.5"></circle>
-                    <circle cx="12" cy="17" r="1.5"></circle>
-                    <circle cx="12" cy="22" r="1.5"></circle>
-                </svg>
-                <div class="notifications">
-                    <button><img class="message" src="img/o-email.png" alt=""></button>
-                    <button><img class="chat" src="img/web-chat.png" alt=""></button>
-                    <button><img class="bell" src="img/alarme.png" alt=""></button>
+            <div class="navbar-band"></div>
+            <div class="navbar-container">
+                <div class="navbar-icons-left">
+                    <a href=""><img src="img/icone-iniciar.svg" alt="Inicio" class="home-icon"></a>
+                    <svg class="point" id="left-point" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false">
+                        <circle cx="12" cy="2" r="1.5"></circle>
+                        <circle cx="12" cy="7" r="1.5"></circle>
+                        <circle cx="12" cy="12" r="1.5"></circle>
+                        <circle cx="12" cy="17" r="1.5"></circle>
+                        <circle cx="12" cy="22" r="1.5"></circle>
+                      </svg>
+                      <img src="img/LOGO.png" alt="" class="logo">
+                      <svg class="point" id="left-point" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false">
+                        <circle cx="12" cy="2" r="1.5"></circle>
+                        <circle cx="12" cy="7" r="1.5"></circle>
+                        <circle cx="12" cy="12" r="1.5"></circle>
+                        <circle cx="12" cy="17" r="1.5"></circle>
+                        <circle cx="12" cy="22" r="1.5"></circle>
+                      </svg>
+                      <a href="materia.html" id="nameuni">τηγάνι &#937;</a>
                 </div>
-
-                <svg class="point_right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                    preserveAspectRatio="xMidYMid meet" focusable="false">
-                    <circle cx="12" cy="2" r="1.5"></circle>
-                    <circle cx="12" cy="7" r="1.5"></circle>
-                    <circle cx="12" cy="12" r="1.5"></circle>
-                    <circle cx="12" cy="17" r="1.5"></circle>
-                    <circle cx="12" cy="22" r="1.5"></circle>
-                </svg>
-                
-                <span class="profile">
-                    <a href=""><img class="panela" src="img/panela.png" alt="Panela"></a>
-                    <a class="username" href="">Frigideira da Silva </a>
-                </span>
+                <div class="navbar-icons-right">
+                    <button><img src="img/grid.png" alt="Selecione o curso" class="icons-left"></button>
+                    <svg class="point" id="left-point" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false">
+                        <circle cx="12" cy="2" r="1.5"></circle>
+                        <circle cx="12" cy="7" r="1.5"></circle>
+                        <circle cx="12" cy="12" r="1.5"></circle>
+                        <circle cx="12" cy="17" r="1.5"></circle>
+                        <circle cx="12" cy="22" r="1.5"></circle>
+                      </svg>
+                      <div>
+                        <button><img src="img/o-email.png" alt="mensagens" class="icons-left"></button>
+                        <button><img src="img/web-chat.png" alt="alertas de inscrição" class="icons-left"></button>
+                        <button><img src="img/alarme.png" alt="Atualizações" class="icons-left"></button>
+                      </div>
+                      <svg class="point" id="left-point" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false">
+                        <circle cx="12" cy="2" r="1.5"></circle>
+                        <circle cx="12" cy="7" r="1.5"></circle>
+                        <circle cx="12" cy="12" r="1.5"></circle>
+                        <circle cx="12" cy="17" r="1.5"></circle>
+                        <circle cx="12" cy="22" r="1.5"></circle>
+                      </svg>
+                      <span>
+                        <a href="materia.html" id="username"><img src="img/panela.png" alt="">Frigideira da Silva</a>
+                      </span>
+                </div>
             </div>
         </nav>
-        <hr class="line" size="1" color="#cdd5dc">
-        
     </header>
+
 
     <section id="inicio">
         <div class="content-page" >
@@ -91,17 +76,27 @@
                     e design diferenciado.
                 </p>
                 <div class="show-pages">
-                    <p> <a href="#other-pages">Mostrar Páginas</a> </p>
+                    <p> <a href="#other-page">Mostrar Páginas</a> </p>
                     
                 </div>
             </div>
         </div>
     </section>
-    <section id="other-pages">
-        <ul>
-            <li><a href="dashboard.html">dashboard</a></li>
-            <li><a href="construcao.html">construção</a></li>
-        </ul>
+    <section id="other-page">
+        <h1>Nossas Páginas</h1>
+        <div class="other-page">
+
+            <div class="navigation">
+                
+                <ul>
+                    <li> <p> <a class="link-pages" href="materia.html">Disciplina</a> </p> </li>
+                    <li> <p> <a class="link-pages" href="dashboard.html">Dashboard</a> </p> </li>
+                    <li> <p> <a class="link-pages" href="cadastro.html">Cadastro</a> </p> </li>
+                    <li> <p> <a class="link-pages" href="sobre-us.html">Sobre Nós</a> </p> </li>
+                    <li> <p> <a class="link-pages" href="construcao.html">Em Construção </a> </p></li>
+                </ul>
+            </div>
+        </div>
     </section>
 </body>
 
