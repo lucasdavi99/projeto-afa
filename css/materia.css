@@ -202,3 +202,13 @@ button{
         width: 300px;
         padding-left: 50px;
     }
+
+    #bomba{
+        width: 300px;
+        height: 400px;
+        margin-left: 50px;
+    }
+
+    #ti{
+        width: 300px;
+    }
